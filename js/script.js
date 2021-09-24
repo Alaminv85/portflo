@@ -7,19 +7,21 @@ $(".service-slider").slick({
 //    nextArrow: '<i class="fas fa-long-arrow-alt-right next"></i>',
     responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 991,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: false,
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 767,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 1,
+          arrows: true,
+          
       }
     },
     {
@@ -47,19 +49,21 @@ $(".testi-slider").slick({
 //    nextArrow: '<i class="fas fa-long-arrow-alt-right next"></i>',
     responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 991,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 2,
+        slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: false,
+          arrows: true,
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 767,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 1,
+          arrows: true,
       }
     },
     {

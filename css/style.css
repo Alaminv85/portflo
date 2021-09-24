@@ -28,6 +28,37 @@ a {
   text-transform: capitalize;
 }
 
+
+
+.slick-next::after {
+	width: 30px;
+	height: 40px;
+	content: "\f30b";
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	font-size: 50px;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	transform: translate(50%,-50%);
+}
+
+.slick-prev::after {
+	width: 40px;
+	height: 40px;
+	content: "\f30a";
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	font-size: 50px;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	transform: translate(-50%,-50%);
+}
+
+
 /* =====================================================
                 header part start
 ======================================================== */
@@ -310,33 +341,6 @@ a {
 
 
 
-
-
-
-
-
-
-.slider-btn{
-    width: 100%;
-    text-align: center;
-    font-size: 50px;
-    color: #fff;
-    position: relative;
-}
-
-
-.slider-btn .prev {
-  position: absolute;
-  bottom: -10px;
-  left: 44%;
-  z-index: 1;
-}
-.slider-btn .next {
-  position: absolute;
-  bottom: -10px;
-  right: 44%;
-  z-index: 1;
-}
 /* =====================================================
                 service part end
 ======================================================== */
